@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="DAVIS: a planning agent with knowledge graph-powered inner monologue for interactive scientific reasoning (Findings of EMNLP 2025).">
+  <meta name="keywords" content="DAVIS">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>DAVIS: Planning Agent with Knowledge Graph-Powered Inner Monologue</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -20,7 +20,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  </script> -->
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -42,7 +42,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -52,7 +52,8 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://minhphd.github.io">
+        Minh Pham-Dinh
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
@@ -80,7 +81,7 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -88,39 +89,36 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title"><span class="dnerf">DAVIS</span>: Planning Agent with Knowledge Graph-Powered Inner Monologue</h1>
+          <p class="venue-line">
+              Findings of <b>EMNLP 2025</b>
+            <span class="venue-meta">· Suzhou, China · Nov 2025</span>
+          </p>
+          
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://minhphd.github.io">Minh Pham-Dinh</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              <a href="">Michael Yankoski</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="">Munira Syed</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="">Trenton Ford</a><sup>3</sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Davis Institute for Artificial Intelligence,</span>
+            <span class="author-block"><sup>2</sup>University of Notre Dame,</span>
+            <span class="author-block"><sup>3</sup>William & Mary</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://aclanthology.org/2025.findings-emnlp.895/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +127,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="https://arxiv.org/abs/2410.09252"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -138,7 +136,7 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -146,10 +144,10 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/minhphd/DAVIS"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -158,14 +156,14 @@
                   </a>
               </span>
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                  </a> -->
             </div>
 
           </div>
@@ -176,79 +174,17 @@
 </section>
 
 <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
+    <!-- Paper video. -->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Presentation</h2>
+      <div class="publication-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mkNJJXu1Wug" title="" frameBorder="1"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://starburstnotongamstop.org/">starburst not on gamstop</a></iframe>
       </div>
     </div>
   </div>
+  <!--/ Paper video. -->
 </section>
-
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -258,233 +194,345 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Designing a generalist scientific agent capable of performing tasks in laboratory settings to assist researchers has become a key goal in recent Artificial Intelligence (AI) research. Unlike everyday tasks, scientific tasks are inherently more delicate and complex, requiring agents to possess a higher level of reasoning ability, structured and temporal understanding of their environment, and a strong emphasis on safety. Existing approaches often fail to address these multifaceted requirements. To tackle these challenges, we present DAVIS. Unlike traditional retrieval-augmented generation (RAG) approaches, DAVIS incorporates structured and temporal memory, which enables model-based planning. Additionally, DAVIS implements an agentic, multi-turn retrieval system, similar to a human’s inner monologue, allowing for a greater degree of reasoning over past experiences. DAVIS demonstrates substantially improved performance on the ScienceWorld benchmark comparing to previous approaches on 8 out of 9 elementary science subjects. In addition, DAVIS’s World Model demonstrates competitive performance on the famous HotpotQA and MusiqueQA dataset for multi-hop question answering. To the best of our knowledge, DAVIS is the first RAG agent to employ an interactive retrieval method in a RAG pipeline.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
-
-<section class="section">
   <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
+    <div class="hero-body">
+      <div class="columns is-centered is-vcentered">
+        <div class="column is-8 has-text-centered">
+          <img id="teaser" src="./static/images/main_dia_detailed.png" alt="Teaser Image" >
+          <h2 class="subtitle">
+            <span class="dnerf">DAVIS</span> enables planning for interactive scientific reasoning tasks via
+            knowledge-graph memory and an inner-monologue retrieval loop.
+          </h2>
         </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
+        <div class="column is-4 has-text-centered">
+          <img id="inner-monologue" src="./static/images/inner_monologue.png" alt="Inner Monologue Image" >
+          <h2 class="subtitle">
+            Inner Monologue.
+          </h2>
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
-
+  </div>
   </div>
 </section>
 
+<section class="section" id="results">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Results</h2>
+
+        <!-- ScienceWorld -->
+        <div class="plot-card">
+          <h3 class="title is-5">ScienceWorld: Success Rate by Subject</h3>
+          <p class="plot-caption">
+            DAVIS improves performance across <b>8/9</b> ScienceWorld subjects compared to prior work.
+          </p>
+          <figure class="plot">
+            <img src="./static/images/plots/per_subject.png" alt="ScienceWorld results by subject">
+            <figcaption>Per-subject breakdown.</figcaption>
+          </figure>
+        </div>
+
+        <!-- QA -->
+        <div class="plot-card">
+          <h3 class="title is-5">World Model QA: HotpotQA / MuSiQue</h3>
+          <div class="table-container wm-table">
+            <table class="table is-striped is-hoverable is-fullwidth">
+              <thead>
+                <tr>
+                  <th rowspan="2">Method</th>
+                  <th colspan="2" class="has-text-centered">HotpotQA</th>
+                  <th colspan="2" class="has-text-centered">MuSiQueQA</th>
+                </tr>
+                <tr>
+                  <th class="has-text-centered">EM</th>
+                  <th class="has-text-centered">F1</th>
+                  <th class="has-text-centered">EM</th>
+                  <th class="has-text-centered">F1</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>GPT-4o</td>
+                  <td class="has-text-centered">46.3</td>
+                  <td class="has-text-centered">64.1</td>
+                  <td class="has-text-centered">19.0</td>
+                  <td class="has-text-centered">34.4</td>
+                </tr>
+                <tr>
+                  <td>GPT-4-turbo</td>
+                  <td class="has-text-centered">44.3</td>
+                  <td class="has-text-centered">60.4</td>
+                  <td class="has-text-centered">20.5</td>
+                  <td class="has-text-centered">34.7</td>
+                </tr>
+                <tr>
+                  <td>GraphReader (GPT-4)</td>
+                  <td class="has-text-centered">55.0</td>
+                  <td class="has-text-centered">70.0</td>
+                  <td class="has-text-centered">38.0</td>
+                  <td class="has-text-centered">47.4</td>
+                </tr>
+                <tr class="sota-row">
+                  <td><b>HOLMES (GPT-4)</b></td>
+                  <td class="has-text-centered"><b>66.0</b></td>
+                  <td class="has-text-centered"><b>78.0</b></td>
+                  <td class="has-text-centered"><b>48.0</b></td>
+                  <td class="has-text-centered"><b>58.0</b></td>
+                </tr>
+                <tr>
+                  <td>GraphRAG (GPT-4o-mini)</td>
+                  <td class="has-text-centered">58.7</td>
+                  <td class="has-text-centered">63.3</td>
+                  <td class="has-text-centered">40.0</td>
+                  <td class="has-text-centered">53.5</td>
+                </tr>
+                <tr class="davis-row">
+                  <td><b>DAVIS (GPT-4o)</b></td>
+                  <td class="has-text-centered"><b>56.25</b></td>
+                  <td class="has-text-centered"><b>73.8</b></td>
+                  <td class="has-text-centered"><b>33.8</b></td>
+                  <td class="has-text-centered"><b>48.5</b></td>
+                </tr>
+                <tr class="davis-row">
+                  <td><b>DAVIS (GPT-4-turbo)</b></td>
+                  <td class="has-text-centered"><b>55.25</b></td>
+                  <td class="has-text-centered"><b>71.0</b></td>
+                  <td class="has-text-centered"><b>34.0</b></td>
+                  <td class="has-text-centered"><b>47.1</b></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Ablations -->
+        <!-- Ablations -->
+        <div class="plot-card" id="ablations">
+          <h3 class="title is-5">Ablation Studies</h3>
+
+          <p class="plot-caption">
+            We study the contribution of the <b>World Model</b> and the <b>Actor–Critic components</b>
+            to DAVIS’s performance on ScienceWorld tasks of varying difficulty.
+          </p>
+
+          <!-- World Model Ablation -->
+          <div class="ablation-subsection">
+            <h4 class="title is-6">Effect of World Model (WM)</h4>
+
+
+            <!-- Table 1 goes here -->
+            <div class="table-container wm-table">
+              <table class="table is-fullwidth">
+                <caption>
+                  <b>Table 1:</b> DAVIS performance with World Model (D+W) and without World Model (D).
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Task</th>
+                    <th class="has-text-centered">D</th>
+                    <th class="has-text-centered">D + W</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="task-group">
+                    <td colspan="3"><b>Long Tasks</b></td>
+                  </tr>
+                  <tr>
+                    <td>Melt (1-2)</td>
+                    <td class="has-text-centered">3.00</td>
+                    <td class="has-text-centered"><b>70.00</b></td>
+                  </tr>
+                  <tr>
+                    <td>Determine Melting Point Unk. (2-3)</td>
+                    <td class="has-text-centered">5.00</td>
+                    <td class="has-text-centered"><b>92.33</b></td>
+                  </tr>
+
+                  <tr class="task-group">
+                    <td colspan="3"><b>Medium Tasks</b></td>
+                  </tr>
+                  <tr>
+                    <td>Mix Paint Secondary (6-1)</td>
+                    <td class="has-text-centered">40.00</td>
+                    <td class="has-text-centered">36.37</td>
+                  </tr>
+                  <tr>
+                    <td>Test Conductivity (3-3)</td>
+                    <td class="has-text-centered">55.00</td>
+                    <td class="has-text-centered"><b>58.33</b></td>
+                  </tr>
+
+                  <tr class="task-group">
+                    <td colspan="3"><b>Short Tasks</b></td>
+                  </tr>
+                  <tr>
+                    <td>Lifespan Longest-Lived (7-1)</td>
+                    <td class="has-text-centered">66.67</td>
+                    <td class="has-text-centered"><b>100.00</b></td>
+                  </tr>
+                  <tr>
+                    <td>Find Living Thing (4-1)</td>
+                    <td class="has-text-centered">25.00</td>
+                    <td class="has-text-centered"><b>100.00</b></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+          <!-- Actor / Critic Ablation -->
+          <div class="ablation-subsection">
+            <h4 class="title is-6">Actor–Critic Ablation</h4>
+
+            <div class="table-container wm-table">
+              <table class="table is-fullwidth">
+                <caption>
+                  <b>Table 2:</b> Ablation study: Full model (D+W), without Actor (D-A), and without Critic (D-C).
+                  Values are success rate (%), with average steps in parentheses.
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Task</th>
+                    <th class="has-text-centered">D + W</th>
+                    <th class="has-text-centered">D - A</th>
+                    <th class="has-text-centered">D - C</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="task-group">
+                    <td rowspan="2"><b>Long</b></td>
+                    <td>1-2</td>
+                    <td class="has-text-centered"><b>70.0</b> (4.38)</td>
+                    <td class="has-text-centered">25.0 (1.12)</td>
+                    <td class="has-text-centered">23.3 (3.20)</td>
+                  </tr>
+                  <tr>
+                    <td>2-3</td>
+                    <td class="has-text-centered"><b>92.3</b> (1.51)</td>
+                    <td class="has-text-centered">79.7 (1.19)</td>
+                    <td class="has-text-centered">33.3 (1.29)</td>
+                  </tr>
+
+                  <tr class="task-group">
+                    <td rowspan="2"><b>Medium</b></td>
+                    <td>6-1</td>
+                    <td class="has-text-centered">36.4 (3.22)</td>
+                    <td class="has-text-centered"><b>100.0</b> (1.49)</td>
+                    <td class="has-text-centered">86.0 (2.49)</td>
+                  </tr>
+                  <tr>
+                    <td>3-3</td>
+                    <td class="has-text-centered"><b>58.3</b> (2.71)</td>
+                    <td class="has-text-centered">28.0 (1.32)</td>
+                    <td class="has-text-centered">49.3 (1.72)</td>
+                  </tr>
+
+                  <tr class="task-group">
+                    <td rowspan="2"><b>Short</b></td>
+                    <td>7-1</td>
+                    <td class="has-text-centered"><b>83.3</b> (2.00)</td>
+                    <td class="has-text-centered">66.7 (2.00)</td>
+                    <td class="has-text-centered">83.3 (2.00)</td>
+                  </tr>
+                  <tr>
+                    <td>4-1</td>
+                    <td class="has-text-centered"><b>100.0</b> (2.50)</td>
+                    <td class="has-text-centered">44.7 (2.94)</td>
+                    <td class="has-text-centered">25.0 (2.50)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@inproceedings{dinh-etal-2025-davis,
+    title = "{DAVIS}: Planning Agent with Knowledge Graph-Powered Inner Monologue",
+    author = "Dinh, Minh Pham  and
+      Yankoski, Michael G  and
+      Syed, Munira  and
+      Ford, Trenton W.",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.895/",
+    doi = "10.18653/v1/2025.findings-emnlp.895",
+    pages = "16490--16505",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Designing a generalist scientific agent capable of performing tasks in laboratory settings to assist researchers has become a key goal in recent Artificial Intelligence (AI) research. Unlike everyday tasks, scientific tasks are inherently more delicate and complex, requiring agents to possess a higher level of reasoning ability, structured and temporal understanding of their environment, and a strong emphasis on safety. Existing approaches often fail to address these multifaceted requirements. To tackle these challenges, we present DAVIS. Unlike traditional retrieval-augmented generation (RAG) approaches, DAVIS incorporates structured and temporal memory, which enables model-based planning. Additionally, DAVIS implements an agentic, multi-turn retrieval system, similar to a human{'}s inner monologue, allowing for a greater degree of reasoning over past experiences. DAVIS demonstrates substantially improved performance on the ScienceWorld benchmark comparing to previous approaches on 8 out of 9 elementary science subjects. In addition, DAVIS{'}s World Model demonstrates competitive performance on the famous HotpotQA and MusiqueQA dataset for multi-hop question answering. To the best of our knowledge, DAVIS is the first RAG agent to employ an interactive retrieval method in a RAG pipeline."
 }</code></pre>
   </div>
 </section>
 
 
-<footer class="footer">
+<footer class="footer" id="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
-          </p>
+    <div class="columns is-vcentered">
+      <div class="column">
+        <p class="footer-title">
+          <span class="dnerf">DAVIS</span> · Findings of EMNLP 2025
+        </p>
+        <p class="footer-subtitle">
+          Planning agent with knowledge graph-powered inner monologue for interactive scientific reasoning.
+        </p>
+      </div>
+
+      <div class="column is-narrow">
+        <div class="footer-links">
+          <a class="footer-pill" href="https://aclanthology.org/2025.findings-emnlp.895/">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span>
+            <span>Paper</span>
+          </a>
+          <a class="footer-pill" href="https://arxiv.org/abs/2410.09252">
+            <span class="icon"><i class="ai ai-arxiv"></i></span>
+            <span>arXiv</span>
+          </a>
+          <a class="footer-pill" href="https://github.com/minhphd/DAVIS">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>Code</span>
+          </a>
         </div>
       </div>
     </div>
+
+    <hr class="footer-rule"/>
+
+    <div class="content is-small">
+      <p>
+        If you use this work, please cite the paper above (BibTeX provided).
+      </p>
+      <p>
+        Website template adapted from <a href="https://github.com/nerfies/nerfies.github.io/tree/main">Nerfies project website</a>; please link back to the original template repository if you reuse the code.
+      </p>
+    </div>
   </div>
 </footer>
-
 </body>
 </html>
